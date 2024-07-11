@@ -1,0 +1,15 @@
+ /*styles for the board*/
+ #divChessboard{
+    width: 480px;
+    height: 480px;
+    border: 2px solid #1E21B6;
+}
+
+
+/*The styles for the chess squares*/
+.chessSquare{
+    float: left; /* align the squares next to eachother */
+    width: 60px; /* set the width of each square */
+    height: 60px; /*set the height of each square*/
+    background-color: azure;
+}
